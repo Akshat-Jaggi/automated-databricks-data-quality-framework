@@ -7,7 +7,7 @@ This project enables data teams to define validation rules in a simple **YAML co
 ## Project Overview
 Data quality is critical for trustworthy analytics. This framework provides:  
 - A **YAML-driven rule engine** to validate datasets.  
-- Automated execution as a **Databricks Job**.  
+- Automated execution as a **Databricks Job**.  (Comment Out the Create Table Code if not required in the Notebook)
 - **Centralized logging** of validation results in Delta tables.  
 - Scalable PySpark implementation for large datasets.  
 
@@ -25,4 +25,15 @@ The system is designed for **scalability, reusability, and governance**, making 
 - **Delta Lake** – Reliable storage & logging of validation results  
 - **YAML** – Externalized configuration for flexible rules  
 
-## 📂 Repository Structure
+## Example Workflow
+- YAML file defines data quality rules.
+- PySpark processes datasets in Databricks.
+- Validation results are logged into a Delta table.
+- Logged metrics can be analyzed over time for trend monitoring.
+
+## Future Possible Enhancements
+- Build a Dashboard in **Databricks Dashboard** for monitoring Data Quality Metric Trends.
+- Extend framework for **Schema Validation**
+- Adding an **Alerting Mechanism** like sending an Email in case of failure of Data Quality Checks.
+- Possibly A**dding Natural Query** on Top of YAML, so that desired YAML can be generated for a table using Natural Language.
+- Incorporate **data profiling** to generate descriptive statistics (null percentages, distinct counts, distributions, min/max values) and help detect anomalies or unexpected patterns.
