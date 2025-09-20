@@ -35,5 +35,5 @@ The system is designed for **scalability, reusability, and governance**, making 
 - Build a Dashboard in **Databricks Dashboard** for monitoring Data Quality Metric Trends.
 - Extend framework for **Schema Validation**
 - Adding an **Alerting Mechanism** like sending an Email in case of failure of Data Quality Checks.
-- Possibly A**dding Natural Query** on Top of YAML, so that desired YAML can be generated for a table using Natural Language.
-- Incorporate **data profiling** to generate descriptive statistics (null percentages, distinct counts, distributions, min/max values) and help detect anomalies or unexpected patterns.
+- Possibly **Adding Natural Query** on Top of YAML, so that desired YAML can be generated for a table using Natural Language.
+- Incorporate **Data Profiling** to generate descriptive statistics (null percentages, distinct counts, distributions, min/max values) and help detect anomalies or unexpected patterns.
